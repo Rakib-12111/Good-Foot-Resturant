@@ -1,18 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 /* font-family: "Work Sans", sans-serif; */
 
-h2{
-    font-family: "Work Sans", sans-serif;
-}
-
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-.hero{
-    background-image: url(../assets/hero-bg.png);
-    max-width: 1536;
-    height: 700px;
+#hero{
+    background-image :url(../assets/hero-bg.png);
+    width: 1536px;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ .subtitle{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size:60 px;
+text-align: center;
+opacity: 0.8;
+
+}
+
+.banner-section-contanar .title{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center; 
+}
+.title-discription{
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 10px;
+text-align: center;
+}
+.btn{
+    /* height: 1536px;
+    height: 700px; */
+    margin-top: 20px;
+    text-align: center;
+    
+    /* background-color: blue; */
+}
+.shop-button{
+    padding: 20px;
+    text-align: center;
+    background-color: #52C303;
+    border: none;
+    border-radius: 7px;
+    color: white;
+
 }
